@@ -1,0 +1,318 @@
+*,
+*:before,
+*:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    overflow-x: hidden;
+    background-color: rgb(7, 7, 7);
+}
+
+.service{
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(7, 7, 7);
+    /* background-color: #252525; */
+    color: white;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row col{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+/************  VARIABLES  ************/
+
+:root{
+    --Poppins : 'Poppins', sans-serif;
+    --txtColor : rgb(67, 67, 221);
+    --titleSize : 30px;
+}
+
+/********  NAVBAR **********/
+
+.navbar{
+    position:absolute;
+    top:0;
+    left:0;
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+    padding:20px;
+    color:white;
+    background-color: rgb(7, 7, 7);
+}
+
+.navbar .logo{
+    position: relative;
+    width: 100px;
+    margin-left: 30px;
+}
+
+.nav-links{
+    display:flex;
+    align-items:center;
+}
+
+.nav-links li{
+    margin:0 30px;
+    cursor:pointer;
+}
+
+.navbar .active a{
+    color: rgb(82, 177, 232);
+    border-bottom: 2px solid rgb(82, 177, 232);
+}
+
+.navbar .logo:hover{
+    cursor: pointer;
+}
+
+.menu-btn{
+    position:absolute;
+    top:30px;
+    right:30px;
+    width:40px;
+    cursor:pointer;
+    display:none;
+}
+
+
+.title{
+    margin: 140px auto;
+    width: 70%;
+    font-size: 60px;
+    justify-content: flex-start;
+    font-family: var(--Poppins);
+}
+
+.title h3{
+    width: 60%;
+}
+
+
+.service .card{
+    margin-top: 200px;
+    width: 400px;
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+    background: white;
+    border-radius: 35px;
+    color: rgb(169, 166, 166);
+}
+
+.right-part .card{
+    margin-top: 200px;
+    margin-left: 40px;
+    width: 400px;
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+    background: rgb(79, 161, 220);
+    border-radius: 35px;
+    color: white;
+}
+
+.service .card .card-title{
+    padding: 30px 20px;
+    border-bottom: 2px solid grey;
+}
+
+.service .card .card-title h2{
+    font-size: 35px;
+    padding-bottom: 15px;
+    color: rgb(46, 137, 212);
+    font-family: 'Poppins', sans-serif;
+}
+
+.right-part .card .card-title h2{
+    font-size: 35px;
+    padding-bottom: 15px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.service .card .card-title p span{
+    font-size: 40px;
+    padding: 0 5px;
+    color: yellow;
+    font-family: 'Poppins', sans-serif;
+}
+
+.service .card .card-content ul{
+    padding: 10px 30px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.service .card .card-content ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+
+.service .card .card-content ul li i{
+    margin-right: 4px;
+    color: rgb(193, 193, 59);
+}
+
+
+.all button{
+    font-family: var(--Poppins);
+    border: none;
+    border-radius: 5em;
+    padding: 1.1em 2.3em;
+    background-color:rgb(46, 137, 212) ;
+    color: white;
+}
+
+.right-part button{
+    border: none;
+    border-radius: 5em;
+    padding: 1.1em 2.3em;
+    background-color:yellow ;
+    color: grey; 
+}
+
+.serv{
+    margin: 80px auto;
+    width: 60%;
+}
+
+.left-part{
+    width: 50%;
+}
+
+.right-part{
+    width: 50%;
+}
+
+.serv p{
+    text-align: center;
+    font-size: 35px;
+    font-family: var(--Poppins);
+    padding-left: 30px;
+}
+
+
+
+/****** SECTION JOINDRE L'EQUIPE ******/
+
+.joinUs{
+    margin: 80px auto;
+    width: 80%;
+}
+
+.joinUs-content{
+    width: 50%;
+}
+
+.postuler{
+    width: 50%;
+}
+
+.joinUs .row{
+    padding: 20px;
+    background: transparent;
+}
+
+.joinUs-content{
+    font-size: 4vmin;
+    font-family: var(--Poppins);
+}
+
+.joinUs-content img{
+    width: 500px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.postuler p{
+    font-family: var(--Poppins);
+    justify-content: start;
+    text-align: left;
+}
+
+.btn{
+    width: 130px;
+    height: 50px;
+    margin-top: 50px;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: var(--Poppins);
+    font-size: 15px;
+    background: transparent;
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(102, 214, 245),white);
+    border: black;
+}
+
+/******  FOOTER *******/
+
+
+
+footer{
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.footer-content{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 50px 100px;
+    justify-content: space-between;
+}
+
+.bloc{
+    width: 25%;
+    margin: 0 30px;
+}
+
+.footer-services h3,
+.footer-compagnie h3,
+.footer-contact h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+} 
+
+.list-services{
+    list-style-type: none;
+}
+
+.list-services li{
+    padding: 5px 0;
+}
+
+.list-services a{
+    text-decoration: none;
+}

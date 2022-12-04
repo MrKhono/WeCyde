@@ -1,0 +1,162 @@
+@media (max-width:912px){
+
+    body{
+        background-color: rgb(7, 7, 7);
+    }
+
+    /* NAVBAR */
+    .menu-btn {
+        display: block;
+    }
+    .navbar{
+        padding:0;
+    }    
+    .navbar .logo{
+        position:absolute;
+        top:10px;
+        left:30px;
+    }
+    .nav-links{
+        flex-direction:column;
+        width:100%;
+        height:60vh;
+        justify-content:center;
+        background:rgb(51, 21, 158);
+        margin-top: -1400px;
+        transition:all 0.5s ease;
+        background: none;
+    }
+    .mobile-menu{
+        width: 100%;
+        margin-top:0px;
+        border-bottom-right-radius:30%;
+    }
+    .nav-links li{
+        margin:30px auto;
+    }
+
+
+
+    /* HEADER */
+    .image-section img{
+        object-fit: cover;
+    }
+
+
+
+    /* COMMENT TRAVAILLONS NOUS  */
+    .work{
+        width: 90%;
+        margin: 50px auto;
+    }
+    .client{
+        margin: 80px auto;
+        height: 430px;
+        width: 90%;
+        background: black ;
+        border-radius: 10px;
+    }
+    
+
+    /* SECTION NOS CLIENTS */
+    .grid-gallery .grid1{
+        width: 200px;
+        height: 150px;
+        background-color: rgb(177, 169, 169);
+    }
+    
+    
+    .grid-gallery .grid3{
+        width: 200px;
+        height: 150px;
+        background-color: rgb(192, 192, 192);
+    }
+    
+    
+    /* SECTION QUE FAISONS NOUS  */
+    .our-work{
+        width: 90%;
+        margin-top: 150px;
+        margin-bottom: 50px;
+        margin-left: 5%;
+    }
+
+    .container h1{
+        position: absolute;
+        background: transparent;
+        left: 170px;
+        justify-content: end;
+        text-align: right;
+        font-family: var(--Poppins);
+        font-size: 50px;
+    }
+
+    .container span{
+        position: absolute;
+        background: none;
+        margin-top: 150px;
+        justify-content: end;
+        text-align: right;
+        left: 170px;
+        font-size: 15px;
+        font-family: var(--Poppins);
+        width: 30%;
+    }
+
+    /* SECTION NOTRE EQUIPE */
+
+    .pe img
+    {
+	width:150px;
+	height: 150px;
+	border-radius: 50%;
+    background-size: cover;
+    }
+
+
+
+    /* SECTION REJOINS L'EQUIPE */
+    .joinUs-content{
+        width: 65%;
+    }
+    
+    .postuler{
+        width: 35%;
+    }
+
+    .joinUs-content{
+        font-size: 3vmin;
+        font-family: var(--Poppins);
+    }
+
+    .joinUs-content img{
+        width: 400px;
+        height: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 10px;
+    }
+
+    /* FOOTER */
+    .footer-content{
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: flex-start;
+        font-size: 20px;
+        padding: 30px 30px 50px;
+        justify-content: space-evenly;;
+    }
+
+    .serv{
+        width: 90%;
+    }
+    
+    
+
+    
+}
+
+@media screen and (min-width:481px) and (max-width:768px){
+    
+}
